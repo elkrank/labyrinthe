@@ -1,0 +1,27 @@
+ .col{
+       display:flex;
+        flex-direction: column;
+    }
+    .uneCase{
+        height:20px;
+        width:20px;
+        border:1px solid black;
+    }
+    .uneCase:hover{
+        background-color: aqua;
+    }
+    .obstacle{
+        background: gray;
+    }
+    #depart{
+        background:red;
+    }
+    #arrive{
+        background :green;
+    }
+    #grille{
+        display:flex;
+    }
+    .depart{
+        background:red;
+    }

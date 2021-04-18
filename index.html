@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A*</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="case.js"></script>
+    <script src="grille.js"></script>
+    <script src="test.js"></script>
+
+   
+</head>
+<body>
+    
+    <label for="nbligne">nombre de lignes</label>
+    <input type="number" name="nbligne" id="nbligne">
+    <label for="nbcolonne">Nombre de colonnes</label>
+    <input type="number" name="nbcolonne" id="nbcolonne">
+    <button id="valider" onclick="grille()">valider</button>
+    <button id="cacul" onclick="A_star()">calculer</button>
+
+    <div id="grille">
+    </div>
+</body>
+
+</html>
